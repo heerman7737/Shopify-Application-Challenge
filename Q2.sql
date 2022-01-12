@@ -30,7 +30,7 @@ JOIN (
             FROM (
                   SELECT ProductID, SUM(Quantity) as Quantity
                   FROM Orders
-                  INNER JOIN (--Get German Customers
+                  INNER JOIN (
                     SELECT CustomerID
                     FROM Customers
                     WHERE Country = 'Germany') germanCustomer 
