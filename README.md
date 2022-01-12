@@ -23,7 +23,7 @@ c.
 Median: 284
 Mode: 153
 
-![Histogram](./histshopify.png)
+![Histogram](./histshopify.PNG)
 
 VIEW CODE HERE:
 
